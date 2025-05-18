@@ -1,4 +1,4 @@
-Scaffold-DbContext "Server=1misa;Database=Variant1;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Server=1misa;Database=Variant2;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 CREATE TABLE Users (
     Id INT PRIMARY KEY IDENTITY(1,1),
     Login NVARCHAR(100) NOT NULL UNIQUE,
